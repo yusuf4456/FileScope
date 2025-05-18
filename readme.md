@@ -1,13 +1,20 @@
-# ForensicLite 🔍  
-Basit ve kullanımı kolay bir dijital adli bilişim araç kiti.
 
-## 📌 Proje Hakkında
+**FileScope**, temel dosya analizi ve dijital adli bilişim işlemlerini gerçekleştirmek için geliştirilen açık kaynaklı bir Python uygulamasıdır.  
 
-**ForensicLite**, dijital delillerin analizinde yardımcı olacak temel araçları içeren bir Python tabanlı uygulamadır.  
-Bu proje, özellikle dijital adli bilişim alanına giriş yapan öğrenciler için sade ve anlaşılır bir yapıya sahiptir.
+## Özellikler
 
-## 🛠️ Özellikler
+- Dosya hash hesaplama (MD5, SHA1, SHA256)
+- Dosya tipi belirleme (magic number kontrolü)
+- Basit görsel ön izleme
+- PDF formatında otomatik rapor oluşturma
+- Tkinter tabanlı sade grafik arayüz
 
-- Dosya hash (MD5, SHA1, SHA256) hesaplama
-- Dosya türü tespiti (`python-magic`)
-- Gör
+
+### Gereksinimler
+
+- Python 3.7 veya üzeri
+
+### Gerekli Python Kütüphaneleri
+
+```bash
+pip install pillow python-magic-bin matplotlib reportlab
