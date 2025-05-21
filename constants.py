@@ -64,6 +64,6 @@ EXPORT_FORMATS = {
 }
 
 
-APP_NAME = "Digital Forensics Toolkit"
+APP_NAME = "File Scope"
 APP_VERSION = "1.0.0"
-APP_AUTHOR = "Diogo Lages"
+APP_AUTHOR = "Yusuf Demir"

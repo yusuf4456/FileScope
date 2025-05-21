@@ -25,7 +25,7 @@ import base64
 import shutil
 
 # Constants
-APP_NAME = "Digital Forensics Toolkit"
+APP_NAME = "File Scope"
 APP_VERSION = "3.0.0"
 
 # Define theme colors
@@ -52,8 +52,8 @@ DARK_THEME = {
 }
 
 
-class DigitalForensicsToolkit:
-    """Main application class for the Digital Forensics Toolkit"""
+class FileScope:
+    """Main application class for the File Scope"""
 
     def __init__(self, root):
         # Initialize root window
@@ -1626,7 +1626,7 @@ class DigitalForensicsToolkit:
 
         # Add template scripts
         templates = {
-            "Simple Alert": 'app.alert("This PDF has been analyzed by the Digital Forensics Toolkit", 3);',
+            "Simple Alert": 'app.alert("This PDF has been analyzed by the File Scope", 3);',
 
             "Document Information": """app.alert("PDF Document Information:");
 var info = this.info;
@@ -2589,5 +2589,5 @@ try {
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = DigitalForensicsToolkit(root)
+    app = FileScope(root)
     root.mainloop()

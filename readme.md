@@ -28,17 +28,21 @@
 
 - Python 3.7 veya üzeri
 
-### Gerekli Python Kütüphanelerini Yüklemek İçin  :
+### Gerekli Python Kütüphanelerini Yüklemek İçin :
 
 pip install pillow python-magic-bin matplotlib reportlab PyPDF2 exifread
 
 
 ### Uygulamayı Çalıştırmak İçin:
-python main.py
 
 
 ### Geliştirici Notu
 Bu proje, adli bilişim mühendisliği öğrencisi olarak edindiğim bilgi ve tecrübeleri pekiştirmek amacıyla geliştirilmiştir.
 Kod yapısı basit ve öğrenmeye yönelik olarak kurgulanmıştır.
 
+## Ekran Görüntüsü
+
+![Uygulama Ekran Görüntüsü](scr1.png)
+
+![Uygulama Ekran Görüntüsü](scr2.png)
 
