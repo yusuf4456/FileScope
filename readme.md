@@ -42,7 +42,7 @@ Kod yapısı basit ve öğrenmeye yönelik olarak kurgulanmıştır.
 
 ## Ekran Görüntüsü
 
-![Uygulama Ekran Görüntüsü](scr1.png)
+![Uygulama Ekran Görüntüsü](assets/scr1.png)
 
-![Uygulama Ekran Görüntüsü](scr2.png)
+![Uygulama Ekran Görüntüsü](assets/scr2.png)
 
